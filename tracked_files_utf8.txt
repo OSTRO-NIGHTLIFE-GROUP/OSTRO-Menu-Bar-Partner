@@ -1,0 +1,50 @@
+﻿images/Brakfast (1).webp
+images/Brakfast (2).webp
+images/Featured.webp
+images/Front-Cover.webp
+images/Japanese-Selection (1).webp
+images/Japanese-Selection (2).webp
+images/Main-Courses (1).webp
+images/Main-Courses (2).webp
+images/Main-Courses (3).webp
+images/Pasta (2).webp
+images/Pizza-Selection (1).webp
+images/Pizza-Selection (2).webp
+images/Salad-Selection (1).webp
+images/Salad-Selection (2).webp
+images/Snak-Appetizers (1).webp
+images/Snak-Appetizers (2).webp
+images/Snak-Appetizers (3).webp
+images/Wrap-Sandwich-Toasts.webp
+images/back-cover.webp
+images/burger-selection.webp
+images/desserts.webp
+images/drinks (1).webp
+images/drinks (10).webp
+images/drinks (11).webp
+images/drinks (12).webp
+images/drinks (13).webp
+images/drinks (14).webp
+images/drinks (15).webp
+images/drinks (16).webp
+images/drinks (17).webp
+images/drinks (18).webp
+images/drinks (2).webp
+images/drinks (3).webp
+images/drinks (4).webp
+images/drinks (5).webp
+images/drinks (6).webp
+images/drinks (7).webp
+images/drinks (8).webp
+images/drinks (9).webp
+images/main-courses (4).webp
+images/main-courses (5).webp
+images/main-courses (6).webp
+images/main-courses (7).webp
+images/pasta (1).webp
+images/promotion (1).webp
+images/promotion (2).webp
+images/promotion (3).webp
+images/promotion (4).webp
+images/promotion (5).webp
+images/steak.webp

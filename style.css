@@ -1,0 +1,100 @@
+/* ===== Reset & Base ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+/* ===== Header ===== */
+header {
+  background: #000;
+  padding: 16px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* ===== Category Buttons ===== */
+.categories {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  overflow-x: auto;
+  background: #1a1a1a;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 52px; /* below header */
+  z-index: 999;
+  cursor: grab;
+  user-select: none;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.categories:active {
+  cursor: grabbing;
+}
+
+.categories button {
+  background: #2a2a2a;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+
+.categories button.active {
+  background: #f5c542;
+  color: #000;
+  font-weight: 600;
+}
+
+/* ===== Menu Section ===== */
+.menu-image {
+  padding: 12px;
+  display: none;
+}
+
+.menu-image.active {
+  display: block;
+}
+
+/* ===== Menu Images (Scrollable) ===== */
+.menu-image img {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+  background: #222;
+}
+
+/* ===== Mobile Optimization ===== */
+@media (max-width: 768px) {
+  header {
+    font-size: 18px;
+  }
+
+  .categories button {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+}
